@@ -29,7 +29,7 @@ export function VehicleInfoForm({ onNext, onBack }: VehicleInfoFormProps) {
         <Input label="Vehicle Color" placeholder="White" />
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex gap-2 justify-between">
         <button type="button" onClick={onBack} className="inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold">
           <ArrowLeft size={16} /> Back
         </button>

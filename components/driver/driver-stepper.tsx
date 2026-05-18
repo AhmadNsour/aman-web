@@ -17,7 +17,7 @@ export function DriverStepper({ currentStep }: DriverStepperProps) {
               <div className="flex flex-col items-center">
                 <div
                   className={`grid h-10 w-10 place-items-center rounded-full border text-sm font-semibold ${
-                    isActive || isCompleted ? "border-purple-600 bg-purple-100 text-[#e069b3]" : "border-gray-200 bg-white text-gray-400"
+                    isActive || isCompleted ? "border-[#e069b3] bg-[#e069b3] text-white" : "border-gray-200 bg-white text-gray-400"
                   }`}
                 >
                   {stepNumber}

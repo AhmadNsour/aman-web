@@ -72,11 +72,11 @@ export function PersonalInfoForm({ onNext }: PersonalInfoFormProps) {
         <Input label="National ID number" placeholder="9XXXXXXXXX" helper="10-digit Jordanian National ID." />
       </div>
 
-      <div className="flex gap-3 rounded-2xl border border-purple-200 bg-purple-50 p-4">
-        <ShieldCheck className="mt-0.5 flex-none text-[#e069b3]" size={22} />
+      <div className="flex gap-3 rounded-2xl border border-[#e069b3] bg-[#e069b3] p-4">
+        <ShieldCheck className="mt-0.5 flex-none text-white" size={22} />
 
-        <p className="text-sm leading-relaxed text-gray-700">
-          <strong className="text-[#4e5a75]">Women-only verified platform.</strong> Every driver and rider on Aman is identity-verified. Your data is encrypted end-to-end.
+        <p className="text-sm leading-relaxed text-white">
+          <strong className="text-white">Women-only verified platform.</strong> Every driver and rider on Aman is identity-verified. Your data is encrypted end-to-end.
         </p>
       </div>
 

@@ -4,7 +4,7 @@ import { PersonalInfoFormProps } from "./types";
 function Label({ children }: { children: React.ReactNode }) {
   return (
     <span className="mb-1.5 block text-sm font-medium">
-      {children} <span className="text-purple-600">*</span>
+      {children} <span className="text-[#e069b3]">*</span>
     </span>
   );
 }
@@ -25,11 +25,11 @@ export function PersonalInfoForm({ onNext }: PersonalInfoFormProps) {
   return (
     <section className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-wider text-purple-600">Step 1 · Personal Information</p>
+        <p className="text-xs font-semibold uppercase tracking-wider text-[#e069b3]">Step 1 · Personal Information</p>
 
         <h2 className="mt-2 text-2xl font-bold sm:text-3xl">Tell us about yourself</h2>
 
-        <p className="mt-2 text-sm leading-relaxed text-gray-600">We use this information to verify your identity. Your details stay private and encrypted.</p>
+        <p className="mt-2 text-sm leading-relaxed text-[#4e5a75]">We use this information to verify your identity. Your details stay private and encrypted.</p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -73,10 +73,10 @@ export function PersonalInfoForm({ onNext }: PersonalInfoFormProps) {
       </div>
 
       <div className="flex gap-3 rounded-2xl border border-purple-200 bg-purple-50 p-4">
-        <ShieldCheck className="mt-0.5 flex-none text-purple-600" size={22} />
+        <ShieldCheck className="mt-0.5 flex-none text-[#e069b3]" size={22} />
 
         <p className="text-sm leading-relaxed text-gray-700">
-          <strong className="text-gray-900">Women-only verified platform.</strong> Every driver and rider on Aman is identity-verified. Your data is encrypted end-to-end.
+          <strong className="text-[#4e5a75]">Women-only verified platform.</strong> Every driver and rider on Aman is identity-verified. Your data is encrypted end-to-end.
         </p>
       </div>
 
@@ -84,7 +84,7 @@ export function PersonalInfoForm({ onNext }: PersonalInfoFormProps) {
         <button
           type="button"
           onClick={onNext}
-          className="inline-flex items-center gap-2 rounded-full bg-purple-600 px-7 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
+          className="inline-flex items-center gap-2 rounded-full bg-[#e069b3] px-7 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5"
         >
           Continue <ArrowRight size={16} />
         </button>

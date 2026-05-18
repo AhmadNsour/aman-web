@@ -5,7 +5,7 @@ function Input({ label, placeholder }: { label: string; placeholder: string }) {
   return (
     <label>
       <span className="mb-1.5 block text-sm font-medium">
-        {label} <span className="text-purple-600">*</span>
+        {label} <span className="text-[#e069b3]">*</span>
       </span>
       <input placeholder={placeholder} className="w-full rounded-xl border px-4 py-3 text-sm shadow-sm outline-none focus:ring-4 focus:ring-purple-100" />
     </label>
@@ -16,9 +16,9 @@ export function VehicleInfoForm({ onNext, onBack }: VehicleInfoFormProps) {
   return (
     <section className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-wider text-purple-600">Step 3 · Vehicle Information</p>
+        <p className="text-xs font-semibold uppercase tracking-wider text-[#e069b3]">Step 3 · Vehicle Information</p>
         <h2 className="mt-2 text-2xl font-bold sm:text-3xl">Tell us about your vehicle</h2>
-        <p className="mt-2 text-sm text-gray-600">Vehicle details help us complete your driver profile and safety checks.</p>
+        <p className="mt-2 text-sm text-[#4e5a75]">Vehicle details help us complete your driver profile and safety checks.</p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -34,7 +34,7 @@ export function VehicleInfoForm({ onNext, onBack }: VehicleInfoFormProps) {
           <ArrowLeft size={16} /> Back
         </button>
 
-        <button type="button" onClick={onNext} className="inline-flex items-center gap-2 rounded-full bg-purple-600 px-7 py-3 text-sm font-semibold text-white shadow-lg">
+        <button type="button" onClick={onNext} className="inline-flex items-center gap-2 rounded-full bg-[#e069b3] px-7 py-3 text-sm font-semibold text-white shadow-lg">
           Continue <ArrowRight size={16} />
         </button>
       </div>

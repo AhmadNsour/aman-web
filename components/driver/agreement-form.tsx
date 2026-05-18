@@ -6,9 +6,9 @@ export function AgreementForm({ onNext, onBack }: AgreementFormProps) {
   return (
     <section className="space-y-6">
       <div>
-        <p className="text-xs font-semibold uppercase tracking-wider text-purple-600">Step 4 · Safety & Agreement</p>
+        <p className="text-xs font-semibold uppercase tracking-wider text-[#e069b3]">Step 4 · Safety & Agreement</p>
         <h2 className="mt-2 text-2xl font-bold sm:text-3xl">Review and confirm</h2>
-        <p className="mt-2 text-sm text-gray-600">Please confirm the required policies before submitting your application.</p>
+        <p className="mt-2 text-sm text-[#4e5a75]">Please confirm the required policies before submitting your application.</p>
       </div>
 
       <div className="space-y-3">
@@ -25,7 +25,7 @@ export function AgreementForm({ onNext, onBack }: AgreementFormProps) {
           <ArrowLeft size={16} /> Back
         </button>
 
-        <button type="button" onClick={onNext} className="inline-flex items-center gap-2 rounded-full bg-purple-600 px-7 py-3 text-sm font-semibold text-white shadow-lg">
+        <button type="button" onClick={onNext} className="inline-flex items-center gap-2 rounded-full bg-[#e069b3] px-7 py-3 text-sm font-semibold text-white shadow-lg">
           Submit Application <CheckCircle size={16} />
         </button>
       </div>

@@ -28,7 +28,7 @@ export default function HomePage() {
 
           <span className="flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
             <Users size={16} className="text-[#e069b3]" />
-            100+ drivers target
+            100+ Verified women drivers
           </span>
 
           <span className="flex items-center gap-2 rounded-full bg-white px-4 py-2 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">

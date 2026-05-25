@@ -8,6 +8,8 @@ export const contactCards = [
     action: "Call now",
     href: "tel:+96260000000",
     icon: Phone,
+    color: "bg-emerald-50 text-emerald-600",
+    ring: "ring-emerald-200",
   },
   {
     title: "Email us",
@@ -16,6 +18,8 @@ export const contactCards = [
     action: "Send email",
     href: "mailto:support@aman.jo",
     icon: Mail,
+    color: "bg-sky-50 text-sky-600",
+    ring: "ring-sky-200",
   },
   {
     title: "Live chat",
@@ -24,6 +28,8 @@ export const contactCards = [
     action: "Open chat",
     href: "#",
     icon: MessageCircle,
+    color: "bg-[#e069b3]/10 text-[#e069b3]",
+    ring: "ring-[#e069b3]/20",
   },
   {
     title: "Driver hotline",
@@ -32,6 +38,8 @@ export const contactCards = [
     action: "Call now",
     href: "tel:+96260000001",
     icon: Headphones,
+    color: "bg-amber-50 text-amber-600",
+    ring: "ring-amber-200",
   },
 ];
 

@@ -60,18 +60,33 @@ export default function SupportPage() {
               const Icon = card.icon;
 
               return (
-                <a key={card.title} href={card.href} className="group rounded-2xl border border-[#e069b3]/15 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
-                  <div className="mb-4 inline-flex rounded-xl bg-[#e069b3]/10 p-3 text-[#e069b3]">
+                <a
+                  key={card.title}
+                  href={card.href}
+                  className={`
+          group rounded-2xl border bg-white p-6
+          shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg
+          ring-1 ${card.ring}
+        `}
+                >
+                  <div
+                    className={`
+            mb-4 inline-flex rounded-xl p-3
+            ${card.color}
+          `}
+                  >
                     <Icon size={24} />
                   </div>
 
                   <h3 className="text-sm font-semibold text-[#4e5a75]">{card.title}</h3>
+
                   <p className="mt-1 text-base font-medium text-[#4e5a75]">{card.value}</p>
+
                   <p className="mt-1 text-xs text-[#4e5a75]/60">{card.subtitle}</p>
 
                   <span className="mt-4 inline-flex items-center text-sm font-medium text-[#e069b3] group-hover:underline">
                     {card.action}
-                    <ChevronRight size={16} className="ml-1" />
+                    <ChevronRight size={16} className="ml-1 -rotate-90" />
                   </span>
                 </a>
               );

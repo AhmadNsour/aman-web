@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Car, ChevronDown, ChevronRight, Clock, Headphones, MapPin, Phone, Send } from "lucide-react";
+import { Car, ChevronDown, ChevronRight, Headphones, MapPin, Phone, Send } from "lucide-react";
 
 import { contactCards, driverCenterDetails, driverCenterInfoCards, faqs, topics } from "./constants";
 
@@ -38,8 +38,8 @@ export default function SupportPage() {
         <div className="pointer-events-none absolute right-0 top-20 h-96 w-96 rounded-full bg-[#e069b3]/15 blur-3xl" />
 
         <section className="relative">
-          <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-14 text-center sm:px-6 sm:pt-20 lg:px-8">
-            <div className="inline-flex items-center gap-2 rounded-full border border-[#e069b3]/20 bg-white/70 px-4 py-1.5 text-xs font-semibold text-[#e069b3] backdrop-blur dark:bg-white/5">
+          <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-14 text-center sm:px-3 sm:pt-10 lg:px-4">
+            <div className="inline-flex items-center gap-2 rounded-full border border-purple-200 bg-white/80 px-4 py-3 text-xs font-semibold text-[#e069b3] shadow-sm">
               <Headphones size={14} />
               We are here to help
             </div>
@@ -136,7 +136,7 @@ export default function SupportPage() {
         <section className="mt-20 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg dark:border-white/10 dark:bg-[#111827]">
           <div className="grid lg:grid-cols-2">
             <div className="relative bg-[#fbf9ff] p-8 dark:bg-white/5 sm:p-10">
-              <div className="inline-flex items-center gap-2 rounded-full border border-[#e069b3]/20 bg-[#e069b3]/10 px-3 py-1 text-xs font-semibold text-[#e069b3]">
+              <div className="inline-flex items-center gap-2 rounded-full border border-purple-200 bg-white/80 px-4 py-3 text-xs font-semibold text-[#e069b3] shadow-sm">
                 <MapPin size={14} />
                 Visit in person
               </div>

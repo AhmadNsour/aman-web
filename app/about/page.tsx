@@ -21,7 +21,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="mt-5 max-w-xl text-base leading-relaxed text-[#4e5a75] sm:text-lg">
-                Aman is Jordan&apos;s women-only ride-hailing platform — a quiet revolution in how women move, work, and earn across the Kingdom. We&apos;re driven by three founders, backed by trusted
+                Aman is Jordan&apos;s women-only ride-hailing platform — a quiet revolution in how women move, work, and earn across the Kingdom. We&apos;re driven by two founders, backed by trusted
                 partners, and powered by thousands of incredible women behind the wheel.
               </p>
 

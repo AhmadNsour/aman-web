@@ -19,7 +19,7 @@ export function SubmissionSuccess() {
           <strong>Training notification:</strong> You will receive training details after approval.
         </p>
         <p className="mt-2">
-          <strong>Support:</strong> drivers@aman.jo
+          <strong>Support:</strong> support@aman.com
         </p>
       </div>
     </section>

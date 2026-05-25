@@ -33,8 +33,8 @@ export default function AboutPage() {
                   Become a driver <ArrowRight className="h-4 w-4" />
                 </Link>
 
-                <a href="#story" className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 text-sm font-semibold text-[#4e5a75] transition hover:bg-purple-50">
-                  Read our story
+                <a href="#journey" className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3 text-sm font-semibold text-[#4e5a75] transition hover:bg-purple-50">
+                  Read our journey
                 </a>
               </div>
             </div>
@@ -187,7 +187,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-purple-50/70 py-20">
+      <section id="journey" className="bg-purple-50/70 py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-semibold uppercase tracking-wider text-[#e069b3]">Our journey</p>

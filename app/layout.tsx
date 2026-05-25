@@ -3,6 +3,7 @@ import "./globals.css";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { ScrollToTop } from "@/components/shared/scroll-to-top";
 
 export const metadata: Metadata = {
   title: "Aman",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${plusJakartaSans.variable} font-sans "bg-[#fbf9ff]`}>
+        <ScrollToTop />
         <Navbar />
         <main className="bg-[#fbf9ff] pt-16 pb-16">{children}</main>
         <Footer />

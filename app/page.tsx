@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="pointer-events-none absolute left-0 top-0 h-72 w-72 rounded-full bg-[#e069b3]/20 blur-3xl" />
       <div className="pointer-events-none absolute right-0 top-20 h-96 w-96 rounded-full bg-[#e069b3]/15 blur-3xl" />
       <div className="relative mx-auto flex min-h-[calc(100vh-18rem)] max-w-6xl flex-col items-center justify-center px-6 py-10 text-center">
-        <p className="inline-flex items-center gap-2 rounded-full border border-purple-200 bg-white px-4 py-2 text-sm font-semibold text-[#e069b3] shadow-sm">
+        <p className="inline-flex items-center gap-2 rounded-full border border-purple-200 bg-white/80 px-4 py-3 text-xs font-semibold text-[#e069b3] shadow-sm">
           <ShieldCheck size={16} />
           Women-only ride-hailing in Jordan
         </p>
@@ -38,11 +38,11 @@ export default function HomePage() {
         </div>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href="/become-driver" className="rounded-full bg-[#e069b3] px-7 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-purple-700">
+          <Link href="/become-driver" className="rounded-full bg-[#e069b3] px-7 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#d458a7]">
             Become a Driver
           </Link>
 
-          <Link href="/about" className="rounded-full border border-gray-200 bg-white px-7 py-3 text-sm font-semibold text-[#4e5a75] transition hover:border-purple-200 hover:bg-purple-50">
+          <Link href="/about" className="rounded-full border border-[#e069b3]/30 bg-white px-7 py-3 text-sm font-semibold text-[#e069b3] transition hover:border-[#e069b3] hover:bg-[#fdf2f8]">
             Learn More
           </Link>
         </div>

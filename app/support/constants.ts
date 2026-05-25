@@ -1,4 +1,4 @@
-import { Car, CircleHelp, CreditCard, FileText, Headphones, Mail, MessageCircle, Phone, ShieldCheck, User } from "lucide-react";
+import { Car, CircleHelp, Clock, CreditCard, FileText, Headphones, Mail, MapPin, MessageCircle, Phone, ShieldCheck, User, Navigation } from "lucide-react";
 
 export const contactCards = [
   {
@@ -76,5 +76,36 @@ export const faqs = [
   {
     question: "What happens if my car breaks down during a trip?",
     answer: "Safely stop the trip, contact support immediately, and follow the in-app safety and emergency instructions.",
+  },
+];
+
+export const driverCenterDetails = [
+  {
+    icon: MapPin,
+    title: "Al-Shmeisani, Amman",
+    subtitle: "Jordan",
+  },
+  {
+    icon: Clock,
+    title: "Sun – Thursday",
+    subtitle: "9:00 am – 5:00 pm",
+  },
+  {
+    icon: Phone,
+    title: "+962 6 000 0000",
+    subtitle: "Call before visiting",
+  },
+];
+
+export const driverCenterInfoCards = [
+  {
+    icon: Navigation,
+    title: "Getting here",
+    description: "Located near the 4th Circle on Abdoun Bridge Road. Free parking available behind the building. Accessible by bus routes 26 and 38.",
+  },
+  {
+    icon: Headphones,
+    title: "What to bring",
+    description: "Bring your National ID and any documents you need help with. Walk-ins welcome, but appointments are recommended for onboarding.",
   },
 ];
